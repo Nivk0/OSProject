@@ -24,7 +24,7 @@ Manage header block
 Handle big-endian conversions
 
 
-Interactive Menu
+Interactive Menu options thing
 
 Create new index file
 Open existing index file
@@ -38,4 +38,38 @@ Quit
 
 
 Dec 2 3:04 PM
+I implemented the basics of the project so far
 
+But there are a lot of parts that are not implemented yet. 
+
+Full B-Tree insertion logic in insert() method
+Complete search functionality
+Printing all index entries
+CSV extraction
+
+So far the code does this:
+512-byte block size
+Big-endian 8-byte integer storage
+Header format with magic number
+Minimal degree of 10 for the B-Tree
+
+To complete the project, I need to add the more complex B-Tree operations like:
+
+Split operations during insertions
+Traversal for search
+Handling node splits and tree growth
+
+
+
+Dec 5 10:10 PM
+I added alot to the btree implementation
+
+Changes: 
+Complete B-Tree insertion logic with node splitting
+Finished the search functionality
+Fully added the implementation of print_index()
+Completed CSV extraction method
+Added node caching 
+Added code for recursive tree traversal
+
+I can now create and open index correctly
